@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login | Webby</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<style type="text/css">
+				*{
+				    margin: 0;
+				    padding: 0;
+				    box-sizing: border-box;
+				}
+
+				main{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 15px;
+					min-height: 100vh;
+					background-image: url('images/logos/front.jpg');
+				}
+
+				.login-box{
+					display: flex;
+					flex-direction: column;
+					width: 440px;
+					height: 415px;
+					padding: 30px;
+					background: #dfdfdf;
+					border-radius: 8px;
+				}
+
+				.login-header{
+					text-align: center;
+					margin: 0;
+				}
+				.login-header h1{
+					color: #333;
+				    font-size: 30px;
+				    font-weight: 600;
+					padding: 10px;
+				}
+
+				.input-box .input-field{
+					width: 100%;
+					height: 60px;
+					font-size: 17px;
+					padding: 0 25px;
+					margin-bottom: 15px;
+				    border-radius: 30px;
+					box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.05);
+					border: none;
+					outline: none;
+					transition: .3s;
+				}
+
+				::placeholder{
+				    font-weight: 500;
+				  	 color: #222;
+				}
+
+				.input-field:focus{
+				    width: 105%;
+				}
+
+				#check{
+					margin-right: 10px;
+				}
+
+
+				.input-submit{
+				    position: relative;
+				    margin-top: 15px;
+				}
+
+				.submit-btn{
+				    width: 100%;
+				    height: 60px;
+				    background: #222;
+				    border: none;
+				    border-radius: 30px;
+				    cursor: pointer;
+				    transition: .3s;
+				}
+
+				.input-submit label{
+				    position: absolute;
+				    top: 45%;
+				    left: 50%;
+				    color: #fff;
+				    -webkit-transform: translate(-50%, -50%);
+				    -ms-transform: translate(-50%, -50%);
+				    transform: translate(-50%, -50%);
+				    cursor: pointer;
+				}
+
+				.submit-btn:hover{
+				    background: #000;
+				    transform: scale(1.05,1);
+				}
+	</style>
+
+</head>
+<body>
+	<!-------------------- Header -------------------->
+    <header>
+    	<div class="info-bar">
+    			<p class="info-text">Designed and coded with ❤ by Allied Group</p>
+    	</div>
+    	<div class="header-container">
+    		<div class="logo">
+    			<a href=""><span><img src="images/logos/crest.jpg" alt="" id="hd-logo">GCTU BOOKSTORE.</span></a>
+    		</div>
+    		<nav class="hd-nav-bar">
+    			<ul class="hd-nav-items">
+    				<li><a href="index.html">Home</a></li>
+    				<li><a href="about.html">About</a></li>
+    				<li><a href="#footer-section-one">Contact</a></li>
+    			</ul>
+    		</nav>
+    		<div class="action-btn">
+    			<a href><i class="fa-light fa-bag-shopping fa-lg"></i></a>
+    			<i class="fa-solid fa-magnifying-glass"></i>
+				<img src="images/action-buttons/wishlist.svg" alt="
+				wishlist" class="action">
+				<img src="images/action-buttons/profile.svg" alt="Profile" class="action">
+    		</div>
+    	</div>
+    </header>
+    <main>
+		<div class="login-box">
+
+			<div class="login-header">
+				<h1>login</h1>
+			</div>
+
+			<div class="input-box index-number-input">
+				<input type="text" placeholder="Index Number" class="input-field" autocomplete="off" required name="username" id="index-number">
+			</div>
+			
+			<div class="input-box password-input">
+				<input type="Password" placeholder="Password" id="password" class="input-field" autocomplete="off" required name="password">
+			</div>
+
+			<div class="check">
+				<input type="checkbox" id="check" name="checkbox">
+	               <label for="check">Remember me</label>
+			</div>
+
+			<div class="input-submit">
+	            <button class="submit-btn" id="submit"></button>
+	            <a href="Shop.html"><label for="submit">Sign In</label></a>
+	        </div>
+
+		</div>
+	</main>
+	<!---------- Footer ---------->
+    <footer>
+        <section id=footer-section-one>
+            <div class="ft-link1">
+                <div class="ft-logo">
+                    <h2>GCTU BOOKSTORE.</h2>
+                    <p>An Online Bookstore designed by Allies Group through System Analysis and Design </p>
+                </div>
+                <div class="socials">
+                    <a href="facebook.com">
+                        <div class="social-icons">
+                            <img src="images/social-icons/facebook.svg" alt="facebook" class="ico">
+                        </div>
+                    </a>
+                    <a href="instagram.com">
+                        <div class="social-icons">
+                            <img src="images/social-icons/instagram.svg" alt="Instagram" class="ico">
+                        </div>
+                    </a>
+                    <a href="pinterest.com">
+                        <div class="social-icons">
+                            <img src="images/social-icons/pinterest.svg" alt="pinterest" class="ico">
+                        </div>
+                    </a>
+                    <a href="linkedin.com">
+                        <div class="social-icons">
+                            <img src="images/social-icons/linkedin.svg" alt="linkedin" class="ico">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <nav class="ft-link2">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="ft-link3">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Return & Refund</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </nav>
+            <nav class="ft-link4">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li><a href="#">Accra, Tesano</a></li>
+                    <li><a href="#">+233 536 96 8552</a></li>
+                    <li><a href="#">allies@gctu.edu.gh</a></li>
+                    <li><a href="#">bookstore.gctu.edu.gh</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="footer-section-two">
+            <div class="section-div-frame-developer">
+                <p> Made with ❤️ by Teddy</p>
+            </div>
+            <div class="section-div-frame-copyright">
+                <p>&copy; 2024, Allies Group. All rights reserved</p>
+            </div>
+        </section>
+    </footer>
+	<script>
+		const indexNumberInput = document.getElementById("index-number"); 
+		const passwordInput = document.getElementById("password"); 
+		const signInBtn = document.querySelector(".input-submit"); 
+
+		const defaultPassword = "Pa55@GCTU"; 
+
+		signInBtn.addEventListener("click", (e) => {
+			// TODO: Check if index number is only number 
+			e.preventDefault(); 
+			const indexNumber = indexNumberInput.value.trim(); 
+			const userPassword = passwordInput.value; 
+			if(indexNumber.length != 10){
+				alert("Enter a valid Index Number"); 
+				return; 
+			}
+			if(userPassword != defaultPassword) {
+				alert("Enter the correct password");
+				return;  
+			}
+			if (!/^\d+$/.test(indexNumber)) {
+				alert("Index Number should only contain numbers");
+				return;
+			}
+			window.location.href = "shop.html"; 
+
+
+		}); 
+
+	</script>
+</body>
+</html>

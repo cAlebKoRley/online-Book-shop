@@ -1,0 +1,366 @@
+.container{
+width: 100%;
+display: flex;
+margin: 32px;
+height: 600px;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+
+.div1{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white;
+    flex-direction: column;
+}
+
+
+.div2{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white;
+    flex-direction: column;
+}
+
+
+
+.div3{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+
+
+.div4{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+.div5{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white;
+    flex-direction: column;
+}
+
+.div6{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white;
+    flex-direction: column;
+}
+
+
+.div7{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+
+.div8{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+
+.div9{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+.div10{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white;
+    flex-direction: column;
+}
+
+.div11{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+.div12{
+    height:350px;
+    width:350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+.div13{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+.div14{
+    height:350px;
+    width: 350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+.div15{
+    height:350px;
+    width:350px;
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 2rem;
+    background-color:white ;
+    flex-direction: column;
+}
+
+
+
+.product-card {
+    max-width: 12em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    justify-content: space-between;
+  }
+  
+.product-card img{
+    max-width: 93%;
+
+}
+  
+.product-title{
+    font-size: 0.82em;
+    margin: 0.5em 0;
+}
+
+.product-card:hover{
+    background-color: #c5c6c7;
+    color: white;
+}
+
+@media screen and(max-width: 576px){
+.product-card{
+    font-size: 0.9em;
+}
+}
+
+.price{
+    font-size: 0.9em;
+}
+
+.purchase-button{
+     padding: 10px;
+     border:none;
+     cursor: pointer;
+}
+.info-bar{
+    text-align: center;
+    margin:5px 0 5px 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #05195E;
+    padding: 15px;
+    /*  background-color: rgba(29, 29, 29, 1.0);    */
+    margin: 0;
+}
+/* Left Side */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#hd-logo{
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    padding: 0;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: lucida handwriting;
+}
+
+/* Centered Items */
+.hd-nav-bar{
+    display: flex;
+    padding: 15px;
+}
+.hd-nav-items{
+    display: flex;
+    gap: 40px;  
+    list-style: none;
+    font-family: Bahnschrift;
+}
+.hd-nav-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.hd-nav-items a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Right side*/
+.action-button {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Action Btn*/
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .div7 img {
+    max-height: 200px;
+} */
+
+#footer-section-one{
+    background-color: #0A053E;
+    /*  background-color: rgba(29, 29, 29, 0.9);    */
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.ft-logo {
+    text-align: center;
+}
+.ft-logo h2{
+    color: rgba(230, 230, 230, 1.0);
+    font-family: lucida handwriting;
+}
+.ft-logo p{
+    color: rgba(230, 230, 230, 0.7);
+    text-align: left;
+    padding: 5px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.socials a{
+    color: white;
+}
+
+.social-icons{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico {
+    width: 20px;
+    height: 20px;
+}
+
+.ft-link1, .ft-link2, .ft-link3, .ft-link4{
+    width: 20%;
+    padding: 10px;
+}
+
+#footer-section-two{
+    /* background-color: rgba(29, 29, 29, 1.0); */
+    background-color: #0A053E;
+    padding: 5px;
+    
+}
+
+.section-div-frame-developer{
+    text-align: center;
+    padding: 5px;
+    color: #E0A828;
+    margin: 0;
+}
+.section-div-frame-copyright{
+    text-align: center;
+    background-color: #E0A828;
+    margin: 0;
+}
+
+
+
+ 
+
